@@ -1,0 +1,84 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T03:51:37.556Z",
+        "line": 6,
+        "name": "Calculator",
+        "description": "",
+        "id": "calculator-login;calculator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 402600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter 50 in the calculator",
+            "match": {
+              "location": "cucumbertestintro.cal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter add",
+            "match": {
+              "location": "cucumbertestintro.calc1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter 30 in the calculator",
+            "match": {
+              "location": "cucumbertestintro.calc2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "cucumbertestintro.calc3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The 80 should be as the result on the screen",
+            "match": {
+              "location": "cucumbertestintro.calc4()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Login",
+    "description": "  I want to use this template for my feature on claculator",
+    "id": "calculator-login",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber/introduction.feature",
+    "tags": []
+  }
+]
